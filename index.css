@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+    gap:40px;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    right: 100px;
+
+}
+a{
+    text-decoration: none;
+    color: yellowgreen;
+    
+}
+h1{
+    color: burlywood;
+}
+.count{
+    background-image: url(./hand-drawn-coffee-concept-background-free-vector.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.count5{
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 720px;
+}
+.count1{
+    font-size: 35px;
+    padding: 3px;
+    position: relative;
+    top: 100px;
+    color:white;
+}
+.count2{
+    padding: 10px;
+    color: brown;
+    background-color: chocolate;
+    position: relative;
+    top: 120px;
+    left: 20px;
+    font-size: medium;
+    color: black;
+    border-radius: 10px;
+}
+.count3{
+    padding: 10px;
+    color: brown;
+    background-color: chocolate;
+    position: relative;
+    top: 120px;
+    left: 60px;
+    font-size: medium;
+    color: black;
+    border-radius: 10px;
+}
+.count4{
+    color: yellowgreen;
+    text-align: center;
+    padding: 50px;
+}
+.count2:hover,.count3:hover{
+    background-color: yellow;
+    color: black;
+}
+.card{
+    height: 100vh;
+    background-image: url(./engraved-coffee-shop-related-objects-600nw-1146698675.webp);
+    background-size: cover;
+}
+.card1{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 40px;
+}
+li{
+    font-size: 30px;
+    text-align: center;
+}
+.card2{
+    border: 3px solid;
+    width: 400px;
+    position: relative;
+    left: 150px;
+    top: 150px;
+    border-radius: 20px;
+}
+.card3{
+     border: 3px solid;
+    width: 400px;
+    position: relative;
+    left: 700px;
+    bottom: 310px;
+    border-radius: 20px;
+}
+.card4{
+     border: 3px solid;
+    width: 400px;
+    position: relative;
+    left: 1250px;
+    bottom: 770px;
+    border-radius: 20px;
+}
+.card2:hover,.card3:hover,.card4:hover{
+ background-color: crimson;
+ color: white;
+}
+.box{
+    height: 100vh;
+    background-image: url(./coffee-background-with-realistic-cup-of-coffee-vector.jpg);
+    background-size: cover;
+}
+.box1{
+    font-size: 40px;
+    text-align: center;
+    color: #e7c290;
+    position: relative;
+    top: 70px;
+}
+img{
+    height: 100px;
+}
+.box2{
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    animation: slide 4s linear  infinite;
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
+
+@keyframes slide{
+    from{
+        transform: translate(0);
+
+    }
+    to{
+        transform: translate(-100%);
+    }
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+.child{
+    height: 100vh;
+    background-image: url(./hand-drawn-coffee-concept-background-free-vector.jpg);
+    background-size: cover;
+}
+.child1{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: white;
+}
+.child2{
+    text-align: center;
+     position: relative;
+    right: 300px;
+    top: 150px; 
+}
+input,textarea,button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 1rem;
+    background-color: yellowgreen;
+}
+button:hover,input:hover,textarea:hover{
+    background-color: black;
+    color: white;
+}
+h3{
+    color: white;
+    font-size: 20px;
+}
+.child3{
+       width: 400px;
+       height: 400px;
+       position: relative;
+       left: 1100px;
+       bottom: 220px;
+}
+footer{
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+    background-color: brown;
+    font-size: 24px;
+}   
+footer:hover{
+     background-color: yellowgreen;
+     color: black;
+}
